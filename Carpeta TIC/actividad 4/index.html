@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Actividad 4: Operadores aritméticos</title>
+<script>
+    function calcular(){
+    let a, b, c, d;
+    a = parseInt(prompt("Inserta un numero:"));
+    b = parseInt(prompt("Inserta otro numero:"));
+    c = a + b;
+    d = a - b; 
+    e = a * b;
+    f = a / b;
+    g = a % b;
+    alert ("El primer numero es: " + a + "\nEl segundo numero es: " + b + "\nLa suma es: " + c + "\nLa resta es: " + d + "\El producto es: " + e + "\nLa division es: " + f + "\nEl resto es " + g );
+}
+</script>
+</head>
+<body>
+
+<h1>Actividad 4: Operadores aritméticos</h1>
+<p>Al pulsar el boton se le pedira al usuario 2 numeros y se mostrara un mensaje con el valor del primer numero, del segundo numero, de la suma, de la resta, de la multiplicacion, de la division y del resto. Cada operación se debe mostrar en una linea distinta.</p>
+<button onclick="calcular()">pulsa</button>
+</body>
+</html>
